@@ -1,0 +1,1526 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DF64F539-576E-4D09-91B4-435B58886137}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestCode_JAVA2S</RootNamespace>
+    <AssemblyName>TestCode_JAVA2S</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Code\AgentHelp_1_AgentTryout.cs" />
+    <Compile Include="Code\Anchor_1_AnchorTwoButtons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Anchor_2_AnchorStyleRight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Anchor_3_AnchorStyleBottom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Anchor_4_AnchorLeftandTop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Anchor_5_TryallAnchorStyles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Bitmap_1_OutputcolorbyRGBvalueforaBitmap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Bitmap_2_BitmapColor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Bitmap_3_BitmapDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Bitmap_4_BitmapOther.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Bitmap_5_BitmapViewerHost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Border_1_SetLabelBorderstyletoFixedSingle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Border_2_Setcontrolborderstyle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Button_10_Addtwoactionlistenerstoabutton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Button_11_AddaButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Button_12_Handlebuttonmessages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Button_13_Addbuttontoform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Button_14_Buttonclickaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Button_15_PictureButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Button_16_ButtonActionDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Button_17_HotTrackButtonHost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Button_18_ButtonGenerator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Button_19_PopupText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Button_1_ButtonImageSizeParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Button_20_PaintOwnerDrawButtons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Button_2_ButtonNameTabIndexText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Button_3_ButtonLocaltion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Button_4_ButtonFlatStyleStyles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Button_5_AddimagetoButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Button_6_AddquotationchartoButtontext.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Button_7_ChangeStandardButtonTextAlignment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Button_8_PopupbuttonFlatbuttonandImagebutton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Button_9_ChangeButtontext.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Calendar_1_GetvaluefromMonthCalendarcontrol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Calendar_2_CalendarControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Calendar_3_DateTimePickerDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Calendar_4_DateTimePicker2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\CheckBoxList_1_CheckedListBoxItemCheckevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\CheckBoxList_2_Getselectedcheckboxlistitems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\CheckBox_1_CheckBoxwithLabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\CheckBox_2_CheckBoxImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\CheckBox_3_SubclassCheckBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\CheckBox_4_CheckedChangedEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\CheckBox_5_IsCheckBoxchecked.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\CheckBox_6_CheckBoxclickSelectedUnselectedevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\CheckBox_7_CheckButtononaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\CheckBox_8_CheckBoxStyle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Clipboard_1_CopyingtotheClipboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Clipboard_2_CopyingfromtheClipboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Clipboard_3_ClipText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Clipboard_4_ImageClip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Clipboard_5_RichTextPaste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Clipboard_6_ClipboardViewerAllFormats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Clock_1_MyClockForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ColorDialog_1_ColorConverter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ColorDialog_2_Clickonmetochangethecolor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ColorDialog_3_Displaycolordialogandgetuserselection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ColorDialog_4_ColorDialogandFontDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ComboBox_1_Additemstocombobox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ComboBox_2_GetSelecteditemfromComboBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ComboBox_3_ComboBoxSelectedItemchangedevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ComboBox_4_ComboBoxselectedItemchangedevent1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ComboBox_5_ComboBoxselecteditemchangedevent2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ComboBox_6_ComboBoxwithcolorcellrenderer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ComboBox_7_WindowsXPcontrols.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Console_1_Addcontroltoawindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ContentAlignment_1_UseContentAlignment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ControlAnchor_1_FormAnchor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Control_1_UseControlGetTypetocheckthecontroltype.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Control_2_ControlEnabled.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Control_3_ControlrendererDemoCheckBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Control_4_AddaControlProgrammatically.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Control_5_ChangeImagealignmentinsideaControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Control_6_Getallcontrolsonaformwindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Control_7_Controlstyleresizeandredraw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Cursor_1_Loadcursorfilecur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Cursor_2_HandCursor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Cursor_3_Setformwindowcursor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Cursor_4_Loadanimatedcursor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Cursor_5_SetFormwindowcursortowaitcursor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Cursor_6_AllMouseCursors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\DataBinding_1_FormatAndParse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\DataBinding_2_FormatAndParseImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\DataGridDataBinding_1_DataGridBinding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\DataGridDataBinding_2_DataGridBindingCustomDataGridColumnForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\DataGrid_1_AddObjectbaseddatatoDataGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\DataValidation_1_SimpleFormValidation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\DataValidation_2_ErrorProviderValidation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\DateTimePicker_1_SetDateTimePickerMinDateandMaxDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\DateTimePicker_2_DateTimePickerValuechangedeventSelectedevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\DateTimePicker_3_DateTimePickerFormatShortTimedefaultandCustomFormat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Dialog_1_Adialogbyuserdefinedproperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Dialog_2_ColorFilldialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Dialog_3_ColorScrollDialogBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Dialog_4_ItalicUserMessageDialogyourowndialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Dialog_5_UseDialogResultpropertyinForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Dialog_6_Defineyourowndialogboxandgetuserinput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Dialog_7_MicrosoftWin32OpenFileDialogSaveFileDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Dialog_8_GetalistoffilesfromafolderbasedontheresultofaFolderBrowserDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\DirectoryTree_1_Directorytreeandpropertygrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Docking_1_DockTwoButtons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Docking_2_DockStyleNone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Docking_3_DockstyleFill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Docking_4_DockStyleRight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Docking_5_DockStyleLeft.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Docking_6_DockStyleBottom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Docking_7_DockStyleTop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Docking_8_DockingDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Docking_9_ControlDocking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\DragDrop_1_ImageDrop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\DragDrop_2_Draganddropinsideacontainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\DragDrop_3_Draganddropimagetoanotherwindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\DragDrop_4_DraganddropthePictureBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\DragDrop_5_FakeDragAndDrop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Editor_1_HexView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Focus_1_FocusForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Focus_2_Setfocustothepreviousinstanceofthespecifiedprogram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FontDialog_1_GetthefontinaFontDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FontDialog_2_ColorDialogandFontDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Font_10_Loadallsysteminstalledfonts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Font_11_Timerbasedanimationforfont.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Font_12_Getallsysteminstalledfont.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Font_13_Fontlist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Font_1_Allfontproperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Font_2_newFontTimesNewRoman10FontStyleItalic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Font_3_newFontstrFontfSize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Font_4_newFontfontRegularFontStyleItalic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Font_5_TextonBaseline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Font_6_FontSizeInPoints.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Font_7_Fontwithdifferentsize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Font_8_FontGetHeight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Font_9_SystemFontsIconTitleFont.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormEvent_10_FormOnMoveevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormEvent_11_CancelEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormEvent_12_Uncloseableevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormEvent_13_Bindkeyactiontoaformwindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormEvent_14_Formwindowclosingevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormEvent_15_Formwindowloadevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormEvent_16_Formresizeandredraw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormEvent_17_FormMousedownaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormEvent_18_FormKeyPressaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormEvent_19_FormPaintevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormEvent_1_FormWindoweventclosingclosedloadactivateddeactivated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormEvent_20_ScrollShapes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormEvent_2_ScrollingAutoScrollMinSize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormEvent_3_OnInputLanguageChanged.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormEvent_4_FormFocusevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormEvent_5_OnMouseWheel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormEvent_6_OnMouseEnterOnMouseHoverOnMouseLeaveevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormEvent_7_OnKeyDownevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormEvent_8_OnClickevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormEvent_9_FormOnResize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_10_AssignFormwindowdefaultvalue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_11_ChangethebackgroundandtextcolorsofaformusingColorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_12_Drawimagebasedonthewindowsize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_13_Autoscrollformwindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_14_SetFormwindowtitleandcentertheFormwindowonthedesktop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_15_Addcontroltoaformwindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_16_ChangeFormwindowbackground.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_17_Simplestformcodesetwindowtitle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_18_Loginfrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_19_makesanewwindowoutofagraphicspaththathasbeentracedonthisformsspace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_1_PrintoutFormsizeandpositionrelatedinformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_20_WindowsFormsGettingStarted.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_21_AformbasedWindowsSkeleton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_22_Simpleform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_23_Addcontrolstoaform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_24_Formfordatainput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_25_Demonstratescreatingaforminaconsoleprogram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_26_AutoScrollPosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_2_UseFontfromFormtopaintstringonaform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_3_SetResizeRedrawproperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_4_SetClientSizetochangetheformwindowsize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_5_FormStartPositionCenterScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_6_Formhide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_7_ChangeFormwindowownership.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_8_CreateGraphicsObjectfromformwindowhandle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormFrameWindow_9_Centerformwindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormStyle_1_SelfPlacingWindowsaveformwindowrelatedinformationtoRegistry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormStyle_2_Nonresizableform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormStyle_3_BorderLessWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormStyle_4_AutoScrollWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormStyle_5_NotinTaskBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FormStyle_6_MinimumWindowSize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FullScreen_1_FullscreenandKeyEventandMouseEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\GroupBox_1_GroupBoxmouseenterevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\GroupBox_2_UsingGroupBoxesandPanelstoholdbuttons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\GroupBox_3_CheckBoxinsideGroupBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\HelpSystem_1_HelpTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\HelpSystem_2_Helpicon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ImageList_1_AddtoandgetImagefromImageList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ImageList_2_ImageListExample.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\IrregularlyShapedForms_10_Transparentform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\IrregularlyShapedForms_1_Transparentwindowholes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\IrregularlyShapedForms_2_TransparentwindowsetOpacity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\IrregularlyShapedForms_3_Transparentformwindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\IrregularlyShapedForms_4_NonrectangleFormwindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\IrregularlyShapedForms_5_Transparentwindowandscreencapture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\IrregularlyShapedForms_6_IrregularlyShapedFormsdemo1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\IrregularlyShapedForms_7_IrregularlyShapedFormsDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\IrregularlyShapedForms_8_TransparentForms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\IrregularlyShapedForms_9_TransparentFormsholes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Label_1_LabelLocaltionNameSizeTabIndexText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Label_2_AddimagetoLabelandsetImageAligntoMiddleRight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Label_3_Labelgrowsastheinnertext.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Label_4_Labelautoresize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Label_5_SetLabelBackgroundforegroundcolorandborderstyle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Label_6_MarqueeLabelHost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Label_7_UseLabelandTimertocreateaClock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Layout_1_LayoutManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\LinkLabel_1_ChangeLinkColorafterithasbeenclicked.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\LinkLabel_2_LinkLabelClickedevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\LinkLabel_3_AboutBoxLinks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListBoxDataBinding_1_ListBoxBindingUnusualProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListBoxDataBinding_2_ObjectListBoxDataBinding2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListBoxDataBinding_3_SingleItemDataBinding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListBoxDataBinding_4_ObjectListBinding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListBoxDataBinding_5_DataListBoxBinding3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListBoxDataBinding_6_EditableBinding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListBox_10_CheckedListBoxDemo2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListBox_11_ListBoxDemo2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListBox_12_ListBoxandMetafileEnum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListBox_13_ListBoxObjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListBox_14_FillXMLdatatoListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListBox_1_AddnewitemtoListBoxtextfromTextBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListBox_2_RemoveitemifoneisselectedfromListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListBox_3_ClearallitemsinaListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListBox_4_ListBoxselectedItemchangedevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListBox_5_AddObjecttoListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListBox_6_ListBoxclickevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListBox_7_SetTopIndextoautoscrollListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListBox_8_Formwithlistbutton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListBox_9_ListBoxfontandimage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListView_10_DisplayDirectoryinfoinaListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListView_11_AddListViewcolumnandinsertListViewrows.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListView_12_UseListViewItemtodisplayfileinformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListView_13_ListViewExample.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListView_14_ListViewCountryimageandfont.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListView_15_UseListViewtodisplayFileinfonamesizeanddate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListView_16_UseListViewtodisplayfilenameanddoubleclickthenametoexecutethatfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListView_17_UseListViewtodiaplayfolderinfoanddoubleclicktoenterthatdirectory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListView_1_WindowsExplorerLikeProgramextendsListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListView_2_DragginganddroppingbetweenListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListView_3_ListViewItemclickedevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListView_4_FolderBrowserbasedonListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListView_5_SetColumnHeaderforListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListView_6_SortaListViewbyAnyColumn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListView_7_AddDatatoaListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListView_8_ExtendsListViewItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ListView_9_UseRadioButtontocontroltheListViewdisplaystyle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MaskedTextBox_1_MaskedTextBoxwithMaskInputRejectedevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MaskedTextBox_2_MaskedTextBoxHost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MDI_10_MdiLayoutTileVertical.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MDI_1_SetMDIparentwindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MDI_2_MaximizedMDIwindowatstartup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MDI_3_MDIform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MDI_4_MDIRelatives.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MDI_5_FormOwnership.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MDI_6_MDIBasics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MDI_7_MDIandDock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MDI_8_MdiLayoutCascade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MDI_9_MdiLayoutTileHorizontal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MenuItem_10_AddHelptextforMenuItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MenuItem_11_HelpMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MenuItem_1_newMenuItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MenuItem_2_Creatingamenuonthefly.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MenuItem_3_SetMenuItemShortCut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MenuItem_4_FontMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MenuItem_5_SubclassMenuItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MenuItem_6_RadioCheckMenuItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MenuItem_7_HatchBrushMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MenuItem_8_OwnerDrawnMenuControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MenuItem_9_OwnerDrawnMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Menu_1_Addcontextmenutoaformwindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Menu_2_BuildMenuandcontextsensitivemenuonyourown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Menu_3_Addshortcutkeytoamenuitem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Menu_4_FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Menu_5_AddaMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Menu_6_MenuTextProviderHost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Menu_7_DynamicMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MessageBox_1_YesNoCancel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MessageBox_2_DisplayQuestionmessageboxandcheckitsresult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MessageBox_3_MessageBoxOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MessageBox_4_MessageBoxwithOKbuttonandinformationicon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MessageBox_5_Messageboxbuilder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MessageBox_6_Informationmessagebox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MessageBox_7_Amessagebox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\MouseOnForm_1_Mouseeventonacontrol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Mouse_1_Mouseactionleftrightmiddlebuttonandcursorposition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\NativeWindow_1_SubclassNativeWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\OpenFileDialog_10_ShowtheuseofsomeoftheOpenFiledialogbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\OpenFileDialog_1_CallShowDialogtodisplayanOpenFileDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\OpenFileDialog_2_SetInitialDirectory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\OpenFileDialog_3_SetCheckFileExiststotrue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\OpenFileDialog_4_SetFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\OpenFileDialog_5_FileOkAction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\OpenFileDialog_6_showsbrowsingforasetoffiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\OpenFileDialog_7_showsbrowsingforafile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\OpenFileDialog_8_OpenFileDialogwithfiletypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\OpenFileDialog_9_DemonstratesusinganOpenFileDialogtopromptforafilenameandtoopenafile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\PageSetupDialog_1_UsePageSetupDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Paint_1_ControlPaintForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Panel_1_SubclassPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Panel_2_Panelandformdockpad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Panel_3_SplitContainerPanelCollapsed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Panel_4_ScrollablePanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Panel_5_ScrollingPicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Password_1_Getinputfrompasswordtextbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Password_2_Setpasswordmaskchar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\PictureBox_1_PictureBoxClickevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\PictureBox_2_PictureBoxScrollText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\PictureBox_3_PictureBoxvisibleandinvisible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\PictureBox_4_LoadimagetoImageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\PictureBox_5_PictureBoxDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\PictureBox_6_SizeModeinPictureBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\PictureBox_7_SubclassPictureBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\PictureBox_8_DraggingImages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\PopupMenu_1_PopupMenuaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\PrintDialog_1_UsingPrintPreviewDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\PrintDialog_2_StepsthroughthecommondialogsDoesnothingelseuseful.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\PrinterSettings_1_PrinterSettingsKind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\PrinterSettings_2_PrinterResolutions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\PrinterSettings_3_InstalledPrinters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\PrinterSettings_4_PrinterNameIsValidprinter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Print_10_PrinterCaps1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Print_11_PrinterCaps2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Print_12_PrinterCaps3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Print_13_PrinterCaps4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Print_14_PrinterCaps5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Print_15_PrinterCaps6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Print_1_ControlPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Print_2_SimpleReportPrinter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Print_3_BeginPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Print_4_DefinePrintSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Print_5_PrintDialogs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Print_6_PrintEvents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Print_7_UIPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Print_8_BasicPrinting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Print_9_GridPrinting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ProgressBar_1_ProgressBarinC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ProgressBar_2_ProgressBarHost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\PropertyGrid_1_Directorytreeandpropertygrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\RadioButton_1_LoadimagetoRadioButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\RadioButton_2_Radiobuttoncheckchangedevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\RadioButton_3_Getselectedradiobutton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\RadioButton_4_UsingRadioButtonstosetmessagewindowoptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\RadioButton_5_RadioButtonclickevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\RadioButton_6_RadioButtoncheckstatechangeevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\RadioButton_7_RadioButtononaform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\RadioButton_8_RadioButtonWithImg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\RadioButton_9_RadioGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ResourceManager_1_ReadingfromaStringResource.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ResourceReader_1_Readingresources.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ResourceReader_2_Checkthekeyinaresourcesfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ResourceWriter_1_Makeanewresourcesfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ResourceWriter_2_Writingaresourcefileprogrammatically.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ResourceWriter_3_Resourcefilegenerator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ResXResourceWriter_1_makearesxfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ResXResourceWriter_2_AddimageResource.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\RichTextBox_1_PasteImagetoRichTextBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\RichTextBox_2_SetFontsizefamilyforaRichTextBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\RichTextBox_3_RichTextBoxZoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\RichTextBox_4_RichTextBoxFontbolditalic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\RichTextBox_5_EditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\RichTextBox_6_RTFBoxTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\RichTextBox_7_RichTextBoxZooming.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\SaveFileDialog_1_CallShowDialogmethodtoshowthedialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\SaveFileDialog_2_UseFilterinSaveFileDialogtofilterfileextension.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\SaveFileDialog_3_SetCheckFileExiststotrue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\SaveFileDialog_4_SetInitialDirectoryforSaveFileDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Scrollable_1_ScrollablePanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Scrollable_2_ScrollableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ScrollBar_1_UseScrollBartocontrolthepicturesize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ScrollBar_2_ScrollBarsDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ScrollBar_3_VScrollBarValueChanged.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ScrollBar_4_Scrollevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Splitter_1_HTMLSplitWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Splitter_2_SplitTwoProportional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Splitter_3_SplitThreeFrames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Splitter_4_SplitThreeAcross.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Splitter_5_TwoPanelswithSplitter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Splitter_6_OnePanelwithSplitter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\StatusBar_10_UseStatusBarPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\StatusBar_11_AddStatusPanelstoStatusBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\StatusBar_12_SetTexttoStatusbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\StatusBar_1_DisplaymessageinStatusBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\StatusBar_2_UseLabelasstatusbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\StatusBar_3_Addicontostatusbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\StatusBar_4_Displaycurrenttimeonstatusbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\StatusBar_5_Displaymenuitemalertmessageonthestatusbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\StatusBar_6_StatusBarwithtwopanels.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\StatusBar_7_Statusbardisplaytimeandpromptmessageformenuitem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\StatusBar_8_StatusBarExample.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\StatusBar_9_StatusStripExample.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\SystemTrayIcon_1_SystemTrayApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Tab_1_AddcontrolstoTabpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Tab_2_TabControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TextBox_10_DataChecker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TextBox_11_UserEvents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TextBox_12_TextBoxandbuttononform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TextBox_13_TextBoxandListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TextBox_14_LabelTextBoxandButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TextBox_15_TextBoxDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TextBox_16_SimpleEditorbasedonTextBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TextBox_1_AddScrollBarstoTextBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TextBox_2_newTextBoxLocaltionNameTabIndexText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TextBox_3_TextBoxlocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TextBox_4_KeyboardeventandTextBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TextBox_5_GetvaluefromTextBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TextBox_6_TextChangedevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TextBox_7_Asimpletexteditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TextBox_8_ConvertTextBoxinputtodoublevalue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TextBox_9_Allcaptexttextbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ThreadandUI_1_Talkingtoavisualelementinabackgroundthread.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ThreadandUI_2_Backgroundprocessinginathread.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ThreadandUI_3_Startingandstoppingathread.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ThreadandUI_4_ThreadandUIDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Time_1_GUIandtimer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ToolBar_1_ImageListforToolBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ToolBar_2_UsingToolBarButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ToolBar_3_ToolBarfloatwindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ToolBar_4_ToolBarExample.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ToolBar_5_FloatingToolbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ToolStripMenuItem_1_ToolStripMenuIteminaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\ToolStripMenuItem_2_UseToolStripMenuItemtosetfontsize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Tooltips_1_AddTooltipsforLabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Tooltips_2_AddTooltiptoacomponent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Tooltips_3_AddicontoTooltip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Tooltips_4_TooltipsDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Tooltips_5_TooltipsforButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TrackBar_1_UseTrackBartocontrollabelcolor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TrayIcon_1_Creatingasystemtrayiconforyourapplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TreeView_10_DirectoryTreeHost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TreeView_11_SubclassTreeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TreeView_12_AddNodestoTreeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TreeView_13_TreeViewImageIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TreeView_1_RecursivelyloadDirectoryinfointoTreeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TreeView_2_DraganddropTreeNode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TreeView_3_GetSelectedNodeFullPath.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TreeView_4_CustomTreeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TreeView_5_TreeViewExample.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TreeView_6_TreeViewDragAndDrop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TreeView_7_TreeViewDataBinding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TreeView_8_ReadanXMLDocumentanddisplaythefileasaTree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\TreeView_9_TreeViewDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\UnicodeDisplay_1_UnicodeencodingEnglish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\UnicodeDisplay_2_UnicodeencodingGerman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\UnicodeDisplay_3_UnicodeencodingFrench.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\UnicodeDisplay_4_UnicodeencodingJapanese.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\UnicodeDisplay_5_Unicodeencoding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\UnicodeDisplay_6_UnicodeencodingRussian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\UnicodeDisplay_7_UnicodeencodingSpanish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\UnicodeDisplay_8_UnicodeencodingimplifiedChinese.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\UpDown_1_ConvertvaluefromNumericDropdowntoInt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\UpDown_2_NumericvaluebasedUpDownSpinner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\UpDown_3_StringbasedDomainUpDownSpinner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\UpDown_4_UpDownControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\UpDown_5_UpDownDerived.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\UserControl_1_subclassSystemWindowsFormsUserControltocreatecustomcontrol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\UserControl_2_DrawaCustomControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\UserControl_3_Defineusercontrol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\UserControl_4_Creatinganeventforacomponent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\UserControl_5_Thereadonlypropertycontrol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Validation_1_TextBoxvaluevalidationDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Validation_2_ErrorProvidertovalidatethetextinaTextBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\WebBrowser_1_WebBrowserinaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\WebBrowser_2_MyWebBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\WebBrowser_3_SimpleWebBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\WebBrowser_4_WebBrowserusualactions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Code\Anchor_1_AnchorTwoButtons.resx">
+      <DependentUpon>Anchor_1_AnchorTwoButtons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\Bitmap_2_BitmapColor.resx">
+      <DependentUpon>Bitmap_2_BitmapColor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\Bitmap_3_BitmapDemo.resx">
+      <DependentUpon>Bitmap_3_BitmapDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\Bitmap_4_BitmapOther.resx">
+      <DependentUpon>Bitmap_4_BitmapOther.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\Bitmap_5_BitmapViewerHost.resx">
+      <DependentUpon>Bitmap_5_BitmapViewerHost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\Button_1_ButtonImageSizeParent.resx">
+      <DependentUpon>Button_1_ButtonImageSizeParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\Clipboard_5_RichTextPaste.resx">
+      <DependentUpon>Clipboard_5_RichTextPaste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\ComboBox_6_ComboBoxwithcolorcellrenderer.resx">
+      <DependentUpon>ComboBox_6_ComboBoxwithcolorcellrenderer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\244923-StarCraft-heroes_of_the_storm-Artanis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BT3EQ9TWS2TM1510790246881.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_11_Chemistry_laboratory_lab_laboratory_2991003.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_chemistry_experiment_flask_lab_laboratory_science_5310257.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_lab-viral-video-ad-creativie_3993863.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
